@@ -1,0 +1,22 @@
+<html>
+    <head>
+	<title>Chat</title>
+	<link rel="stylesheet" href="app/css/app.css" />
+    </head>
+    <body ng-app="chat">
+	<div id="main" ng-controller="ChatController">
+	    <div id='header'></div>
+	    <div id='chat-body'>
+	    </div>
+	    <div id='footer'>
+	        <div class='chat-input'>
+	            <input type='text' class='form-control' ng-model='message' />
+		</div>
+	    </div>
+	</div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script src='node_modules/angular/angular.min.js'></script>
+	<script src="app/js/app.js"></script>
+    </body>
+</html>

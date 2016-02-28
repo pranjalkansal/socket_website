@@ -1,0 +1,24 @@
+{
+  "name": "chat_site",
+  "version": "1.0.0",
+  "description": "An anonymous chat webpage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pranjalkansal/chat_website.git"
+  },
+  "author": "Pranjal Kansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranjalkansal/chat_website/issues"
+  },
+  "homepage": "https://github.com/pranjalkansal/chat_website#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "jquery": "^2.2.0",
+    "socket.io": "^1.4.5"
+  }
+}
